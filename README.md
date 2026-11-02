@@ -55,7 +55,7 @@ An AI advisor for Islamic finance, designed around trustworthy guidance and a cl
 </td>
 <td width="33%" valign="top">
 
-### Zit-Net
+### KenZit
 
 A startup concept for collecting and recycling used cooking oil across Algeria through better logistics and matching.
 
@@ -100,14 +100,14 @@ I am open to internships, research collaborations, hackathons and ambitious AI p
 
 <a href="https://www.linkedin.com/in/amri-asmaa-nour-el-yakine-527866216/"><img src="https://img.shields.io/badge/Start%20a%20conversation-f472b6?style=for-the-badge&logo=linkedin&logoColor=18181b" alt="Start a conversation on LinkedIn" /></a>
 
-</details> <details> <summary><b>🤫 Secrets of an AI engineer (open at your own risk)</b></summary> <br/>
-Your data is your model. 80% of results come from cleaning, not architecture.
-Baseline first. A logistic regression that works beats a transformer that doesn't ship.
-If it's not reproducible, it didn't happen. Seeds, configs, versions.
-Plot everything. Loss curves lie less than gut feelings.
-Metrics ≠ value. 99% accuracy on the wrong problem is still the wrong problem.
-Design matters. Users judge your AI by its interface in 3 seconds.
-Ship, then iterate. The best feedback comes from real users, not validation sets.
+</details> <details> <summary><b> Secrets of an AI engineer </b></summary> <br/>
+- Your data is your model. 80% of results come from cleaning, not architecture.
+- Baseline first. A logistic regression that works beats a transformer that doesn't ship.
+- If it's not reproducible, it didn't happen. Seeds, configs, versions.
+- Plot everything. Loss curves lie less than gut feelings.
+- Metrics ≠ value. 99% accuracy on the wrong problem is still the wrong problem.
+- Design matters. Users judge your AI by its interface in 3 seconds.
+- Ship, then iterate. The best feedback comes from real users, not validation sets.
 </details>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:190b2d,45:9d174d,100:f472b6&height=110&section=footer" width="100%" alt="Pink gradient footer" />
