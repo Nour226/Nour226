@@ -18,7 +18,7 @@ I am **Asmaa Nour El Yakine Amri**, an AI and data science student at **ESI Algi
 - Currently exploring deep learning, NLP, computer vision and practical MLOps
 - Interested in AI products that are useful, reproducible and accessible
 - Former frontend developer who cares about the last mile: clarity, interaction and polish
-- Based in Médéa, Algeria · Working across French, English, Arabic and Darija
+- Based in Algiers, Algeria · Working across French, English, Arabic and Darija
 
 > A model in a notebook is an idea. A model in production is impact.
 
