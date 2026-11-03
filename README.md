@@ -46,7 +46,7 @@ Customer churn prediction platform covering the full path from data to deployed 
 </td>
 <td width="33%" valign="top">
 
-### Sol R Us
+### NourFi
 
 An AI advisor for Islamic finance, designed around trustworthy guidance and a clear user experience.
 
