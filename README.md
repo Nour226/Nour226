@@ -1,13 +1,23 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:190b2d,45:9d174d,100:f472b6&height=220&section=header&text=Asmaa%20Nour%20EL%20Yakine%20AMRI&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20%20%C2%B7%20%20Data%20Science%20%20%C2%B7%20%20Product%20Engineering&descAlignY=61&descSize=17&animation=twinkling" width="100%" alt="Pink gradient profile header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,40:0f2744,70:1a3a5c,100:0d1b2a&height=220&section=header&text=Asmaa%20Nour%20EL%20Yakine%20AMRI&fontSize=48&fontColor=e0f2fe&fontAlignY=38&desc=AI%20%2F%20ML%20%20%C2%B7%20%20Data%20Science%20%20%C2%B7%20%20Product%20Engineering&descAlignY=61&descSize=16&animation=twinkling" width="100%" />
 
-<a href="https://github.com/Nour226"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=F9A8D4&center=true&vCenter=true&width=760&height=55&lines=Turning+data+into+useful+products.;Training+models.+Shipping+experiences.;AI+%C2%B7+NLP+%C2%B7+Computer+Vision+%C2%B7+MLOps" alt="Animated introduction" /></a>
+<br/>
 
-<p>
-  <a href="https://www.linkedin.com/in/amri-asmaa-nour-el-yakine-527866216/"><img src="https://img.shields.io/badge/LinkedIn-18181b?style=for-the-badge&logo=linkedin&logoColor=F9A8D4" alt="LinkedIn" /></a>
-  <a href="https://github.com/Nour226"><img src="https://img.shields.io/badge/GitHub-18181b?style=for-the-badge&logo=github&logoColor=F9A8D4" alt="GitHub" /></a>
-</p>
+### 🌊 [Enter the Interactive Ocean Experience](https://Nour226.github.io/Nour226/)
+
+<a href="https://Nour226.github.io/Nour226/">
+  <img src="https://img.shields.io/badge/View%20Full%20Animated%20Portfolio-0ea5e9?style=for-the-badge&logo=github&logoColor=white" alt="View Interactive Portfolio" />
+</a>
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/amri-asmaa-nour-el-yakine-527866216/">
+  <img src="https://img.shields.io/badge/LinkedIn-0a1628?style=for-the-badge&logo=linkedin&logoColor=7dd3fc" />
+</a>
+<a href="https://github.com/Nour226">
+  <img src="https://img.shields.io/badge/GitHub-0a1628?style=for-the-badge&logo=github&logoColor=7dd3fc" />
+</a>
 
 </div>
 
