@@ -1,28 +1,17 @@
 <div align="center">
 
-<a href="https://nour226.github.io/portfolio-hero/">
-  <img
-    src="assets/underwater-header.gif"
-    width="100%"
-    alt="Asmaa Nour - Interactive underwater portfolio"
-  />
-</a>
+<img src="https://raw.githubusercontent.com/Nour226/Nour226/main/hero.svg" width="100%" alt="Asmaa Nour El Yakine AMRI – animated ocean header" />
 
-<a href="https://nour226.github.io/portfolio-hero/">
-  <img src="https://img.shields.io/badge/EXPLORE_MY_INTERACTIVE_PORTFOLIO-05648A?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+<a href="https://github.com/Nour226"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=F9A8D4&center=true&vCenter=true&width=760&height=55&lines=Turning+data+into+useful+products.;Training+models.+Shipping+experiences.;AI+%C2%B7+NLP+%C2%B7+Computer+Vision+%C2%B7+MLOps" alt="Animated introduction" /></a>
 
-<br/>
-
-<a href="https://www.linkedin.com/in/amri-asmaa-nour-el-yakine-527866216/">
-  <img src="https://img.shields.io/badge/LinkedIn-18181b?style=for-the-badge&logo=linkedin&logoColor=56c8ed" />
-</a>
-
-<a href="https://github.com/Nour226">
-  <img src="https://img.shields.io/badge/GitHub-18181b?style=for-the-badge&logo=github&logoColor=56c8ed" />
-</a>
+<p>
+  <a href="https://www.linkedin.com/in/amri-asmaa-nour-el-yakine-527866216/"><img src="https://img.shields.io/badge/LinkedIn-18181b?style=for-the-badge&logo=linkedin&logoColor=F9A8D4" alt="LinkedIn" /></a>
+  <a href="https://github.com/Nour226"><img src="https://img.shields.io/badge/GitHub-18181b?style=for-the-badge&logo=github&logoColor=F9A8D4" alt="GitHub" /></a>
+</p>
 
 </div>
+
+
 ## About
 
 I am **Asmaa Nour El Yakine Amri**, an AI and data science student at **ESI Algiers**. I enjoy building the bridge between strong machine-learning foundations and thoughtful product interfaces.
