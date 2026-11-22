@@ -111,6 +111,6 @@ I am open to internships, research collaborations, hackathons and ambitious AI p
 - Ship, then iterate. The best feedback comes from real users, not validation sets.
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:190b2d,45:9d174d,100:f472b6&height=110&section=footer" width="100%" alt="Pink gradient footer" />
+<img src="https://raw.githubusercontent.com/Nour226/Nour226/main/footer.webp" width="100%" alt="Animated 3D hibiscus in a glass dome" />
 
 </div>
