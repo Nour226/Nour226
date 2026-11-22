@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asmaa Nour EL Yakine AMRI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #050d1a;
+      color: #e0f2fe;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      position: relative;
+      height: 100vh;
+      min-height: 700px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 8%;
+      background: radial-gradient(ellipse at 70% 50%, #0c1f3a 0%, #050d1a 70%);
+      overflow: hidden;
+    }
+
+    /* Soft floating particles / bubbles */
+    .bubble {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(125, 211, 252, 0.15);
+      animation: rise 12s infinite ease-in;
+    }
+
+    @keyframes rise {
+      0% { transform: translateY(100vh) scale(0.5); opacity: 0; }
+      20% { opacity: 0.6; }
+      100% { transform: translateY(-10vh) scale(1.2); opacity: 0; }
+    }
+
+    .content {
+      max-width: 580px;
+      z-index: 10;
+    }
+
+    .eyebrow {
+      font-size: 0.85rem;
+      letter-spacing: 0.35em;
+      color: #7dd3fc;
+      margin-bottom: 1.2rem;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3.8rem, 8vw, 6.5rem);
+      font-weight: 900;
+      line-height: 0.95;
+      color: #f0f9ff;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 span {
+      display: block;
+      font-size: 0.35em;
+      letter-spacing: 0.4em;
+      font-weight: 400;
+      color: #7dd3fc;
+      margin-bottom: 0.4rem;
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      line-height: 1.7;
+      color: #94a3b8;
+      max-width: 480px;
+      margin-bottom: 2.5rem;
+    }
+
+    .cta-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.9rem 1.8rem;
+      border-radius: 9999px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      font-size: 0.95rem;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #0ea5e9, #0284c7);
+      color: white;
+      box-shadow: 0 10px 25px rgba(14, 165, 233, 0.3);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 35px rgba(14, 165, 233, 0.45);
+    }
+
+    .btn-ghost {
+      border: 1px solid rgba(125, 211, 252, 0.4);
+      color: #7dd3fc;
+    }
+
+    .btn-ghost:hover {
+      background: rgba(125, 211, 252, 0.1);
+    }
+
+    /* Right side - dramatic fish visual */
+    .visual {
+      position: relative;
+      width: 45%;
+      max-width: 520px;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .fish-glow {
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      background: radial-gradient(circle, rgba(239, 68, 68, 0.25) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(40px);
+      animation: pulse 6s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.7; }
+      50% { transform: scale(1.15); opacity: 1; }
+    }
+
+    .fish-placeholder {
+      width: 100%;
+      max-width: 480px;
+      aspect-ratio: 1;
+      background: url('https://images.unsplash.com/photo-1524704654690-b9bffc0c0c0c?w=800') center/cover;
+      /* Replace the URL above with a high-quality red betta / ocean fish image */
+      border-radius: 50%;
+      box-shadow: 0 0 80px rgba(239, 68, 68, 0.3);
+      position: relative;
+      z-index: 5;
+      animation: float 8s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-18px); }
+    }
+
+    /* Navigation */
+    nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 1.8rem 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 20;
+    }
+
+    .logo {
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      color: #e0f2fe;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #7dd3fc;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 120px;
+        height: auto;
+        min-height: 100vh;
+      }
+      .visual {
+        width: 80%;
+        height: 40vh;
+        margin-top: 3rem;
+      }
+      .content {
+        max-width: 100%;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Asmaa Nour</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#focus">Focus</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <!-- Floating bubbles -->
+    <div class="bubble" style="width:12px; height:12px; left:10%; animation-delay:0s;"></div>
+    <div class="bubble" style="width:8px; height:8px; left:25%; animation-delay:3s;"></div>
+    <div class="bubble" style="width:16px; height:16px; left:70%; animation-delay:1.5s;"></div>
+    <div class="bubble" style="width:10px; height:10px; left:85%; animation-delay:4s;"></div>
+
+    <div class="content">
+      <div class="eyebrow">Beauty of the Ocean · AI / ML</div>
+      <h1>
+        <span>ASMAA NOUR</span>
+        EL YAKINE
+      </h1>
+      <p class="subtitle">
+        AI & Data Science student at ESI Algiers.  
+        Building the bridge between strong machine-learning foundations and thoughtful product experiences.
+      </p>
+      <div class="cta-group">
+        <a href="https://github.com/Nour226" class="btn btn-primary">View Work</a>
+        <a href="https://www.linkedin.com/in/amri-asmaa-nour-el-yakine-527866216/" class="btn btn-ghost">Connect</a>
+      </div>
+    </div>
+
+    <div class="visual">
+      <div class="fish-glow"></div>
+      <!-- Replace this with a real red betta / ocean fish image -->
+      <div class="fish-placeholder"></div>
+    </div>
+  </section>
+</body>
+</html>
