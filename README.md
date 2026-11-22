@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Nour226/Nour226/main/hero.webp" width="100%" alt="Asmaa Nour El Yakine AMRI – AI / ML · Data Science · Product Engineering" />
+
 <a href="https://github.com/Nour226"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=F9A8D4&center=true&vCenter=true&width=760&height=55&lines=Turning+data+into+useful+products.;Training+models.+Shipping+experiences.;AI+%C2%B7+NLP+%C2%B7+Computer+Vision+%C2%B7+MLOps" alt="Animated introduction" /></a>
 
 <p>
